@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+app:
+  user-file: data/users.json
+
+  password-min-length: 6
+
+  username-regex: "^[a-zA-Z0-9_]{3,16}$"
