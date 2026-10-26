@@ -1,0 +1,10 @@
+[ {
+  "username" : "Alice",
+  "passwordHash" : "$2a$10$W/n0K9qM3D5O6USBDXDSTu7Ce0Jfh8N6qqXYn9wujWs5JxkeO7FhO"
+}, {
+  "username" : "Yuyuko",
+  "passwordHash" : "$2a$10$LVv64KKAxP31npe8Xa7lAeeb5KcNTlj4R90xLO/g2CUxg11tYLhdq"
+}, {
+  "username" : "Reimu",
+  "passwordHash" : "$2a$10$ZWPA6K8R3cVHwJkrg00qqevLfmHW3MSuwtFIUNXgEy20ULKXMQ0xS"
+} ]
