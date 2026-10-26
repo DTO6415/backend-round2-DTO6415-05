@@ -411,6 +411,27 @@ public class UserService {
 这个方法用于处理`IllegalStateException`这种自定义异常。它是当文件处理失败(例如读取数据失败)时出现的。
 返回的是`INTERNAL_SERVER_ERROR(500)`状态码，以及对应语句。
 
+### 配置(Application.yml)
+
+```yml
+server:
+  port: 8080
+
+app:
+  user-file: data/users.json
+
+  password-min-length: 6
+
+  username-regex: "^[a-zA-Z0-9_]{3,16}$"
+
+```
+
+修改配置前后产生的影响如下：
+![pasted-image.png · 155](https://img.cdn1.vip/i/6adeac050374c_1792977925.webp)
+此时密码合法
+![pasted-image.png · 168](https://img.cdn1.vip/i/6adeac9f766d0_1792978079.webp)
+修改密码最小长度后六位密码变为非法
+
 ## 思考
 
 1. 关于密码：

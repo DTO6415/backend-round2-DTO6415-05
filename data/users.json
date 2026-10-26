@@ -7,4 +7,7 @@
 }, {
   "username" : "Reimu",
   "passwordHash" : "$2a$10$ZWPA6K8R3cVHwJkrg00qqevLfmHW3MSuwtFIUNXgEy20ULKXMQ0xS"
+}, {
+  "username" : "Bob",
+  "passwordHash" : "$2a$10$OWQhjQIuS0hPiNzU7P0Zv.YRoaZDLVmAultfhXqIwiQGBgy50NBn2"
 } ]
